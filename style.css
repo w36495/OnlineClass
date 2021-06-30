@@ -1,0 +1,190 @@
+.header {
+    margin: auto 0;
+}
+
+.header-gnb ul {
+    background-color: #f7f7f7;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.header-gnb ul li {
+    display: block;
+    float: right;
+    padding: 10px;
+}
+
+.header-gnb ul li a {
+    display: block;
+    padding: 5px;
+    color: #262626;
+    text-align: center;
+}
+
+.header-logo {
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.header-logo span {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: 30%;
+}
+
+.header-nav {
+    border-top: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf;
+    padding: 10px;
+}
+
+.header-nav ul {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-nav ul li {
+    padding: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+
+.header-nav ul li a {
+    display: block;
+    padding: 5px;
+    color: #262626;
+    text-align: center;
+    /*font-weight: bold;*/
+}
+
+.container > span {
+    font-size: 40px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.container form {
+    width: 30%;
+}
+
+.container form div.input-group {
+    margin: 10px;
+}
+
+.container form button.loginButton {
+    background-color: lawngreen;
+}
+
+.lectures_box {
+    margin-top: 30px;
+}
+
+.lectures {
+    border: 1px solid #e2e2e2;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+}
+
+.lectures img {
+    margin-bottom: 5px;
+}
+
+.lectures .lecture_data p {
+    margin: 10px 0;
+}
+
+.cart_title {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+.board_title {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+.container form {
+    width: 100%
+}
+
+.table_th th {
+    font-weight: bold;
+}
+
+.table_th th, tr{
+    text-align: center;
+}
+
+.table_pagy {
+    text-align: center;
+}
+
+.board_add_btn {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.board_add_box {
+    margin: 50px;
+}
+
+.board_show_box {
+    border: 1px solid #e2e2e2;
+    padding: 30px;
+}
+
+.board_show_box ul li {
+    display: inline-block;
+}
+
+.board_show_box ul li.writer {
+    float: right;
+}
+
+#position_left {
+    float: left;
+}
+
+.btn_class_add {
+    text-align: right;
+}
+
+.footer{
+    background-color: #F8F8FF;
+}
+
+.footer ul{
+    margin: 100px 0px 0px 0px;
+    padding: 50px;
+}
+
+.footer ul li{
+    display: block;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+}
+
+.footer ul li:nth-child(1){
+    font-weight: bold;
+}
+
+.btn_signUpdate {
+    text-align: right;
+}
+
+.board {
+    margin-top: 20px;
+}

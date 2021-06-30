@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ko">
+        <title></title>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- 합쳐지고 최소화된 최신 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+        <!-- 부가적인 테마 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+        <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="header-gnb">
+                        <ul>
+                        
+                    <div class="header-logo" onclick="location.href='index.php'">
+                        <span>Online Class</span>
+                    </div>
+                </header>
+        
+
+        <div class="container">
+            <p class="cart_title">로그인</p>
+            <form action="signin.php" method="post">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">ID</span>
+                    <input name="uid" type="text" class="form-control" placeholder="아이디를 입력하세요." aria-describedby="user">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">PW</span>
+                    <input name="pwd" type="password" class="form-control" placeholder="비밀번호를 입력하세요." aria-describedby="user">
+                </div>
+                <div class="btn_signUpdate">
+                    <button type="submit" class="btn btn_defualt">로그인</button>
+                    <button type="button" class="btn btn_defualt" onclick="location.href='signUp.html'">회원가입</button>
+                </div>
+                
+            </form>
+            
+        </div>
+        <!-- footer -->
+  <footer>
+    <div class="footer">
+      <ul>
+        <li>웹프로그래밍 기말프로젝트</li>
+        <li>20182375 | 황지영</li>
+        <li>2021.06.20</li>
+      </ul>
+    </div>
+  </footer>
+    </body>
+</html>
